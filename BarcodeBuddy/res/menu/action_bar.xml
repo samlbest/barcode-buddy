@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_add" android:orderInCategory="1" android:title="Add" android:visible="true" android:showAsAction="always"></item>
+    <item android:id="@+id/action_view" android:orderInCategory="10" android:title="View" android:visible="true" android:showAsAction="always"></item>
+    <item android:id="@+id/action_scan" android:orderInCategory="20" android:title="Scan" android:visible="true" android:showAsAction="always"></item>
+</menu>

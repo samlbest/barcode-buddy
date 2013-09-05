@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/det_product_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Product name"
+	        android:gravity="left"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/det_product_name_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/det_brand"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+	        android:gravity="left"
+	        android:text="Brand"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/det_brand_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:id="@+id/det_last_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:text="Last purchase price"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/det_last_price_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>  
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/det_average_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+	        android:text="Average price"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/det_average_price_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="centerInside" />
+   
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <cron>
+        <url>/cron/updateaggregates</url>
+        <description>Update average price.</description>
+        <schedule>every 15 minutes</schedule>
+        <target>1</target>
+    </cron>
+</cronentries>

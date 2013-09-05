@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true" 
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/product_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/upc_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/barcode"
+        android:layout_below="@+id/barcode"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/price_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/price"
+        android:layout_below="@+id/price"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/category_data"
+        android:layout_marginTop="18dp"
+        android:text="@string/brand_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/category_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product"
+        android:layout_below="@+id/category"
+        android:inputType="text"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_data"
+        android:layout_below="@+id/category_data"
+        android:layout_marginTop="15dp"
+        android:text="@string/product_name_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_data"
+        android:layout_below="@+id/product_data"
+        android:layout_marginTop="14dp"
+        android:text="@string/price_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/price_data"
+        android:layout_below="@+id/price_data"
+        android:layout_marginTop="14dp"
+        android:text="@string/upc_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/add_product_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/upc_data"
+        android:layout_below="@+id/upc_data"
+        android:layout_marginTop="15dp"
+        android:text="@string/add_product_label" />
+
+    <ImageButton
+        android:id="@+id/add_image_button"
+        android:contentDescription="Upload an image."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add_product_button"
+        android:layout_alignRight="@+id/upc_data"
+        android:src="@android:drawable/ic_menu_camera" />
+</RelativeLayout>
