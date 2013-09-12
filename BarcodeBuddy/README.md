@@ -1,5 +1,5 @@
 solutions-mobile-backend-starter-android-client
- =====================================
+=====================================
  
 This project is Android native client sample for Mobile Backend Starter.
 
