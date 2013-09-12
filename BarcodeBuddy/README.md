@@ -1,9 +1,12 @@
-solutions-mobile-backend-starter-android-client
+Barcode Buddy
 =====================================
 
-This project is Android native client sample for Mobile Backend Starter.
-
-Disclaimer: This is not an official Google Product.
+This app helps users keep track of the price of past purchases of products. To make it easy to
+store the products it uses a barcode scanner and looks up product information. It allows the user 
+to view products that they have added. The user accounts are handled by Google’s authentication APIs 
+which is built into the Android OS. The product list screen shows the last purchase price, and if 
+you go into the details it shows the average price for that UPC aggregated across all users, and a 
+photo if the user uploaded one.
 
 ## Products
 - [App Engine][1]
@@ -13,7 +16,8 @@ Disclaimer: This is not an official Google Product.
 - [Java][3]
 
 ## APIs
-- [Google Cloud Endpoints][4]
+- [Google Cloud Endpoints][5]
+- [Scandit Barcode Scanner SDK][6]
 
 ## Setup Instructions
 The instruction below lists just some key steps.
@@ -38,4 +42,5 @@ For detailed setup instructions and documentation visit [Google App Engine devel
 [3]: http://java.com/en/
 [4]: https://developers.google.com/appengine/docs/java/endpoints/
 [5]: https://github.com/GoogleCloudPlatform/solutions-mobile-backend-starter-java
+[6]: http://www.scandit.com/
 
