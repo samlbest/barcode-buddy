@@ -1,12 +1,9 @@
-Barcode Buddy
-=====================================
+solutions-mobile-backend-starter-android-client
+ =====================================
+ 
+This project is Android native client sample for Mobile Backend Starter.
 
-This app helps users keep track of the price of past purchases of products. To make it easy to
-store the products it uses a barcode scanner and looks up product information. It allows the user 
-to view products that they have added. The user accounts are handled by Google’s authentication APIs 
-which is built into the Android OS. The product list screen shows the last purchase price, and if 
-you go into the details it shows the average price for that UPC aggregated across all users, and a 
-photo if the user uploaded one.
+Disclaimer: This is not an official Google Product.
 
 ## Products
 - [App Engine][1]
